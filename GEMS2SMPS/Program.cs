@@ -1105,6 +1105,7 @@ namespace GEMS2SMPS {
 			if(debug) d(hex((int)boff, 4) + " " + v);
 		}
 
+		// write debug file
 		private static void wd() {
 			if(debug) File.WriteAllText(folder + ".log", defl);
 		}
